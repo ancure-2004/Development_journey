@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+  </head>
+  <body>
+    <header>Registration Form</header>
+    <main>
+      <form action="/action.php">
+        <input type="text" placeholder="username" />
+        <br /><br />
+        <input type="password" placeholder="password" />
+        <br /><br />
+        <h5>select branch</h5>
+        <label for="101">
+          <input type="radio" value="CS DS" name="branch" id="101" />CS DS
+        </label>
+        <br /><br />
+        <label for="102">
+          <input type="radio" value="CS AI" name="branch" id="102" />CS AI
+        </label>
+        <br />
+        <h5>Select your fav subject</h5>
+        <label for="maths">
+          <input type="checkbox" value="math" name="subject" id="101" />math
+        </label>
+        <br /><br />
+        <label for="physics">
+          <input
+            type="checkbox"
+            value="physics"
+            name="subject"
+            id="102"
+          />physics
+        </label>
+        <br /><br />
+        <label for="chemistry">
+          <input type="checkbox" value="chem" name="subject" id="102" />chem
+        </label>
+        <br /><br />
+        <select name="city" id="">
+          <option value="Delhi">Delhi</option>
+          <option value="Ghaziabad">Ghaziabad</option>
+          <option value="Meerut">Meerut</option>
+        </select>
+        <br /><br />
+        <textarea name="feedback" id="104" placeholder="Give your Feedback">
+            Feedback </textarea
+        >
+        <br /><br />
+        <input type="submit" value="submit" />
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>
